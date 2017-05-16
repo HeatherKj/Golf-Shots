@@ -14,6 +14,17 @@
 		0748BC531E9C77CC000CE19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0748BC511E9C77CC000CE19A /* LaunchScreen.storyboard */; };
 		0748BC5E1E9C77CC000CE19A /* Golf_ShotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748BC5D1E9C77CC000CE19A /* Golf_ShotsTests.swift */; };
 		0748BC691E9C77CC000CE19A /* Golf_ShotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748BC681E9C77CC000CE19A /* Golf_ShotsUITests.swift */; };
+		0762CD9C1EC3FC3E0053BFAE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0762CD9B1EC3FC3E0053BFAE /* Activity.swift */; };
+		0796807F1EB1868B0015E210 /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796807E1EB1868B0015E210 /* SelfieCell.swift */; };
+		07973DC91EAECD4900B637DA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07973DC81EAECD4900B637DA /* FeedViewController.swift */; };
+		07973DCB1EAED1EE00B637DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07973DCA1EAED1EE00B637DA /* User.swift */; };
+		07973DCD1EAED49B00B637DA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07973DCC1EAED49B00B637DA /* Post.swift */; };
+		07CC03AC1ECA92CC00846A10 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC03AB1ECA92CC00846A10 /* ActivityViewController.swift */; };
+		07CC03AE1ECA92F500846A10 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC03AD1ECA92F500846A10 /* ActivityCell.swift */; };
+		07F2149B1EA859FD005EDC46 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2149A1EA859FD005EDC46 /* ProfileViewController.swift */; };
+		A12E749FBE579D3B1CAC4E03 /* Pods_Golf_ShotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1838F6826344C8952109570B /* Pods_Golf_ShotsUITests.framework */; };
+		DCD8F3FCAB25CF41FCFFF56B /* Pods_Golf_ShotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD0C2B60B1C0C5CBDC236D2 /* Pods_Golf_ShotsTests.framework */; };
+		F255BE4926E3CE96849E3322 /* Pods_Golf_Shots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336F51F85E04C42045FE785F /* Pods_Golf_Shots.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,23 @@
 		0748BC641E9C77CC000CE19A /* Golf ShotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golf ShotsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0748BC681E9C77CC000CE19A /* Golf_ShotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_ShotsUITests.swift; sourceTree = "<group>"; };
 		0748BC6A1E9C77CC000CE19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0762CD9B1EC3FC3E0053BFAE /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		0796807E1EB1868B0015E210 /* SelfieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
+		07973DC81EAECD4900B637DA /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		07973DCA1EAED1EE00B637DA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07973DCC1EAED49B00B637DA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		07CC03AB1ECA92CC00846A10 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		07CC03AD1ECA92F500846A10 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		07F2149A1EA859FD005EDC46 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../ProfileViewController.swift; sourceTree = "<group>"; };
+		1838F6826344C8952109570B /* Pods_Golf_ShotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf_ShotsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A0BE607308BD84957D4FA9 /* Pods-Golf ShotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf ShotsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golf ShotsUITests/Pods-Golf ShotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		336F51F85E04C42045FE785F /* Pods_Golf_Shots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf_Shots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4253C84B5302065ACDA6F388 /* Pods-Golf Shots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf Shots.release.xcconfig"; path = "Pods/Target Support Files/Pods-Golf Shots/Pods-Golf Shots.release.xcconfig"; sourceTree = "<group>"; };
+		5AD0C2B60B1C0C5CBDC236D2 /* Pods_Golf_ShotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golf_ShotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AFCF94FCECF687E11E2199 /* Pods-Golf ShotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf ShotsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Golf ShotsUITests/Pods-Golf ShotsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94358206C5DA923FC891A0E4 /* Pods-Golf ShotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf ShotsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Golf ShotsTests/Pods-Golf ShotsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7D115DA0225061D99564473 /* Pods-Golf ShotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf ShotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golf ShotsTests/Pods-Golf ShotsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D401266A31E178BA6FC494AC /* Pods-Golf Shots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Golf Shots.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Golf Shots/Pods-Golf Shots.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F255BE4926E3CE96849E3322 /* Pods_Golf_Shots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD8F3FCAB25CF41FCFFF56B /* Pods_Golf_ShotsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12E749FBE579D3B1CAC4E03 /* Pods_Golf_ShotsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				0748BC5C1E9C77CC000CE19A /* Golf ShotsTests */,
 				0748BC671E9C77CC000CE19A /* Golf ShotsUITests */,
 				0748BC461E9C77CC000CE19A /* Products */,
+				E6103EC979E0B3825BC52945 /* Pods */,
+				F8605883D3DB5295A2BFB35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,20 @@
 		0748BC471E9C77CC000CE19A /* Golf Shots */ = {
 			isa = PBXGroup;
 			children = (
+				0796807E1EB1868B0015E210 /* SelfieCell.swift */,
 				0748BC481E9C77CC000CE19A /* AppDelegate.swift */,
 				0748BC4A1E9C77CC000CE19A /* ViewController.swift */,
 				0748BC4C1E9C77CC000CE19A /* Main.storyboard */,
+				0762CD9B1EC3FC3E0053BFAE /* Activity.swift */,
+				07F2149A1EA859FD005EDC46 /* ProfileViewController.swift */,
 				0748BC4F1E9C77CC000CE19A /* Assets.xcassets */,
 				0748BC511E9C77CC000CE19A /* LaunchScreen.storyboard */,
 				0748BC541E9C77CC000CE19A /* Info.plist */,
+				07973DC81EAECD4900B637DA /* FeedViewController.swift */,
+				07973DCA1EAED1EE00B637DA /* User.swift */,
+				07973DCC1EAED49B00B637DA /* Post.swift */,
+				07CC03AB1ECA92CC00846A10 /* ActivityViewController.swift */,
+				07CC03AD1ECA92F500846A10 /* ActivityCell.swift */,
 			);
 			path = "Golf Shots";
 			sourceTree = "<group>";
@@ -125,6 +166,29 @@
 			path = "Golf ShotsUITests";
 			sourceTree = "<group>";
 		};
+		E6103EC979E0B3825BC52945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D401266A31E178BA6FC494AC /* Pods-Golf Shots.debug.xcconfig */,
+				4253C84B5302065ACDA6F388 /* Pods-Golf Shots.release.xcconfig */,
+				C7D115DA0225061D99564473 /* Pods-Golf ShotsTests.debug.xcconfig */,
+				94358206C5DA923FC891A0E4 /* Pods-Golf ShotsTests.release.xcconfig */,
+				21A0BE607308BD84957D4FA9 /* Pods-Golf ShotsUITests.debug.xcconfig */,
+				83AFCF94FCECF687E11E2199 /* Pods-Golf ShotsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8605883D3DB5295A2BFB35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				336F51F85E04C42045FE785F /* Pods_Golf_Shots.framework */,
+				5AD0C2B60B1C0C5CBDC236D2 /* Pods_Golf_ShotsTests.framework */,
+				1838F6826344C8952109570B /* Pods_Golf_ShotsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0748BC6D1E9C77CC000CE19A /* Build configuration list for PBXNativeTarget "Golf Shots" */;
 			buildPhases = (
+				EE8E688258E9A140D35AB97D /* [CP] Check Pods Manifest.lock */,
 				0748BC411E9C77CC000CE19A /* Sources */,
 				0748BC421E9C77CC000CE19A /* Frameworks */,
 				0748BC431E9C77CC000CE19A /* Resources */,
+				93E6B3319D0452BA41CA0241 /* [CP] Embed Pods Frameworks */,
+				764F4E58D8B419F3DB41415E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0748BC701E9C77CC000CE19A /* Build configuration list for PBXNativeTarget "Golf ShotsTests" */;
 			buildPhases = (
+				601FA8FE758AE111B53DBA77 /* [CP] Check Pods Manifest.lock */,
 				0748BC551E9C77CC000CE19A /* Sources */,
 				0748BC561E9C77CC000CE19A /* Frameworks */,
 				0748BC571E9C77CC000CE19A /* Resources */,
+				39315889527B0BA6F12BD48A /* [CP] Embed Pods Frameworks */,
+				BE9370526FA40576B4EE360B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0748BC731E9C77CC000CE19A /* Build configuration list for PBXNativeTarget "Golf ShotsUITests" */;
 			buildPhases = (
+				64106C56AD7103D68F0E9A98 /* [CP] Check Pods Manifest.lock */,
 				0748BC601E9C77CC000CE19A /* Sources */,
 				0748BC611E9C77CC000CE19A /* Frameworks */,
 				0748BC621E9C77CC000CE19A /* Resources */,
+				F1FF0411899958E7319B2F5C /* [CP] Embed Pods Frameworks */,
+				699AE4347D40C2E5DA1A313B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +327,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39315889527B0BA6F12BD48A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf ShotsTests/Pods-Golf ShotsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601FA8FE758AE111B53DBA77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64106C56AD7103D68F0E9A98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		699AE4347D40C2E5DA1A313B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf ShotsUITests/Pods-Golf ShotsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764F4E58D8B419F3DB41415E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf Shots/Pods-Golf Shots-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E6B3319D0452BA41CA0241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf Shots/Pods-Golf Shots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9370526FA40576B4EE360B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf ShotsTests/Pods-Golf ShotsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8E688258E9A140D35AB97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1FF0411899958E7319B2F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Golf ShotsUITests/Pods-Golf ShotsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0748BC411E9C77CC000CE19A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F2149B1EA859FD005EDC46 /* ProfileViewController.swift in Sources */,
 				0748BC4B1E9C77CC000CE19A /* ViewController.swift in Sources */,
+				07CC03AE1ECA92F500846A10 /* ActivityCell.swift in Sources */,
+				0796807F1EB1868B0015E210 /* SelfieCell.swift in Sources */,
 				0748BC491E9C77CC000CE19A /* AppDelegate.swift in Sources */,
+				07CC03AC1ECA92CC00846A10 /* ActivityViewController.swift in Sources */,
+				07973DCD1EAED49B00B637DA /* Post.swift in Sources */,
+				07973DCB1EAED1EE00B637DA /* User.swift in Sources */,
+				0762CD9C1EC3FC3E0053BFAE /* Activity.swift in Sources */,
+				07973DC91EAECD4900B637DA /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +629,9 @@
 		};
 		0748BC6E1E9C77CC000CE19A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D401266A31E178BA6FC494AC /* Pods-Golf Shots.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = "Golf Shots/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.thehez.Golf-Shots";
@@ -422,8 +642,9 @@
 		};
 		0748BC6F1E9C77CC000CE19A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4253C84B5302065ACDA6F388 /* Pods-Golf Shots.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = "Golf Shots/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.thehez.Golf-Shots";
@@ -434,6 +655,7 @@
 		};
 		0748BC711E9C77CC000CE19A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D115DA0225061D99564473 /* Pods-Golf ShotsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +670,7 @@
 		};
 		0748BC721E9C77CC000CE19A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94358206C5DA923FC891A0E4 /* Pods-Golf ShotsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +685,7 @@
 		};
 		0748BC741E9C77CC000CE19A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A0BE607308BD84957D4FA9 /* Pods-Golf ShotsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Golf ShotsUITests/Info.plist";
@@ -475,6 +699,7 @@
 		};
 		0748BC751E9C77CC000CE19A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AFCF94FCECF687E11E2199 /* Pods-Golf ShotsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Golf ShotsUITests/Info.plist";
@@ -505,6 +730,7 @@
 				0748BC6F1E9C77CC000CE19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0748BC701E9C77CC000CE19A /* Build configuration list for PBXNativeTarget "Golf ShotsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +739,7 @@
 				0748BC721E9C77CC000CE19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0748BC731E9C77CC000CE19A /* Build configuration list for PBXNativeTarget "Golf ShotsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +748,7 @@
 				0748BC751E9C77CC000CE19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

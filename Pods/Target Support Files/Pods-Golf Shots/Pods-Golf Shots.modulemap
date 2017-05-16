@@ -1,0 +1,6 @@
+framework module Pods_Golf_Shots {
+  umbrella header "Pods-Golf Shots-umbrella.h"
+
+  export *
+  module * { export * }
+}
